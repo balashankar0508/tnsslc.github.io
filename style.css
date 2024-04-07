@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.title p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #00236a;
+	text-decoration: none;
+	text-align:center;
+}
+
+.title{
+	padding:20px;
+	background:#e5e5e5;
+}
+
+
+.sslc {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+.submit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.button{
+	margin-top:20px;
+	width:150px;
+	text-align:center;
+	border-radius:10px;
+	height:50px;
+	font-size:18px;
+	padding:10px;
+}
+
+#sub{
+	cursor:pointer;
+}
+
+
+#btn{
+	cursor:pointer;
+}
+
+
+table td:nth-child(1){
+	height:60px;
+	width:420px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	margin-right:80px;	
+}
+
+table label{
+	margin:20px;
+	color:darkred;
+}
+
+input{
+	height:50px;
+	border-radius:10px;
+	
+}
+
+input[type="submit"]{
+	margin-right:20px;
+	border: 3px solid #e7e7e7;
+}
+
+input[type="reset"]{
+	margin-left:20px;
+	border: 3px solid #e7e7e7;
+}
+
+input[type="text"]{
+	border:3px solid #e7e7e7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	width:180px;
+	margin-left:20px;
+}
+
+
+.ff{
+	display:flex;
+	justify-content:center;
+	width:490px;
+	height:220px;
+	padding:10px;
+	position:relative;
+	top:20px;
+	left:33.5%;
+}
+
+
+
+
+.tab{
+	justify-content:center;
+	text-align:right;
+	border: 1px solid darkred;
+	padding:5px;
+}
+
+.foot{
+	padding:20px;
+	background:#e5e5e5;
+	position:relative;
+	top:100px;
+	
+}
+
+.foot a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	padding:.1em;
+}
+
+.foot p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	padding:.1em;
+}
+
+.disclaimer p{
+	margin-top:32px;
+	width:50%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+} 
+
+

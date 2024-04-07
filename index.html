@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta content="examresults" charset="utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" >
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<title>TN Board Results</title>
+
+</head>
+<body>
+<header>
+<div class="title">
+	<p>Government of Tamil Nadu</p>
+	<p>Directorate of Government Examinations</p>
+</div>
+</header>
+
+<div data-role="header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+	  <tr>
+	  <td width="20%" align="center" valign="middle" bgcolor="#992299" style="height: 30px"><a href="http://results.nic.in" target="_blank"><img src="images/icon07.gif" width="103" height="30" border="0" /></a></td>
+	  <td class="sslc" width="60%" align="center" valign="middle" bgcolor="#992299" style="height: 30px"><strong>SSLC&nbsp;
+	  Examination Results&nbsp; April 2023</strong></td>
+	  <td width="20%" align="center" valign="middle" bgcolor="#992299" style="height: 30px" ></td>
+	  </tr>
+  </table>
+  </div>
+<div class="ff">
+<form action="result.jsp" method="post" id="form" >
+	<table align="center" class="tab">
+	<tr><td><label for="roll">Registration No:</label></td><td><input type="text" id="roll" name="rollno"  maxlength="7" autocomplete="off" ></td></tr>
+	<tr><td><label for="dob">Date of Birth(dd/mm/yyyy):</label></td><td><input type="text"  maxlength="10" id="dob" name="dob" autocomplete="off" ></td></tr>
+	<div class="submit">
+	<tr><td><input class="button" id="sub" type="submit" value="Get Marks"></td><td><input class="button" id="btn" type="reset" value="Clear"></td></tr>
+	</div>
+	</table>
+</form>
+</div>
+<div class="foot" align="center">
+<a href="">Site Designed and hosted by National Informatics Centre</a>
+<p>For results related queries Contact DGE:  directordge [dot] tn [at] nic [dot] in</p>
+<p>For any Technical Feedback send mail to tnwebadmin [at] nic [dot] in</p>
+<div class="disclaimer">
+<p>Disclaimer: Neither NIC nor the Directorate is responsible for any inadvertent error that may have crept in the results being published on Net. The results published on Net are for immediate information to the examinees. These cannot be treated as original mark sheets.</p>
+</div>
+</div>
+</body>
+</html>
